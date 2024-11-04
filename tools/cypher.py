@@ -30,7 +30,7 @@ cypher_qa = GraphCypherQAChain.from_llm(
     graph=graph,
     verbose=True,
     cypher_prompt=CYPHER_GENERATION_PROMPT
-)
+) 
 
 # Entity extraction template
 _DEFAULT_ENTITY_EXTRACTION_TEMPLATE = """Extract all entities from the following text. As a guideline, a proper noun is generally capitalized. You should definitely extract all names and places.
