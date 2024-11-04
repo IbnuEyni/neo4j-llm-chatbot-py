@@ -29,15 +29,18 @@ Equipped with various tools for general conversations and specific queries using
 ## Demo
 Below is a screenshot of the chatbot in action:
 
-![Chatbot Demo](neo4j-llm-chatbot-py.png)
+<div style="display: flex; justify-content: space-between;">
+    <img src="neo4j-llm-chatbot-py.png" alt="Chatbot Demo 1" width="45%" />
+    <img src="neo4j-llm-chatbot-py1.png" alt="Chatbot Demo 2" width="45%" />
+</div>
 
 ## Installation
 
 To get started, clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/IbnuEyni/neo4j-llm-chatbot.git
-cd neo4j-llm-chatbot
+git clone https://github.com/IbnuEyni/neo4j-llm-chatbot-py.git
+cd neo4j-llm-chatbot-py
 pip install -r requirements.txt
 ```
 
@@ -49,7 +52,7 @@ Run the chatbot using Streamlit:
 Example Interaction
 
     User: "What are the main diseases associated with lung cancer?"
-    Bot: "Lung cancer is often associated with several conditions, including chronic obstructive pulmonary disease (COPD), emphysema, and pulmonary fibrosis."
+    Bot: "Enhancers play a crucial role in increasing gene transcription. They are regulatory DNA sequences that can be located far away from the gene they regulate. While they don't initiate transcription themselves, they act as a sort of "boost" by increasing the rate at which a gene is transcribed into RNA."
 
 
 ## Contribution
