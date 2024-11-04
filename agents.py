@@ -111,7 +111,7 @@ chat_agent = RunnableWithMessageHistory(
 
 # Create a handler to call the agent
 def generate_response(user_input):
-    """
+    """ 
     Handler to call the conversational agent and return a response to be rendered in the UI.
     """
     response = chat_agent.invoke(
